@@ -1,0 +1,28 @@
+13:46:09.998 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** finished TC_001_AccountRegistrationTest  *****
+13:46:12.631 [main] INFO  testCases.TC_002_LoginTest - **** Starting TC_002_LoginTest  ****
+13:46:12.631 [main] DEBUG testCases.TC_002_LoginTest - capturing application debug logs....
+13:46:12.721 [main] INFO  testCases.TC_002_LoginTest - clicked on myaccount link on the home page..
+13:46:13.472 [main] INFO  testCases.TC_002_LoginTest - clicked on login link under myaccount..
+13:46:13.472 [main] INFO  testCases.TC_002_LoginTest - Entering valid email and password..
+13:46:13.804 [main] INFO  testCases.TC_002_LoginTest - clicked on login button..
+13:46:14.727 [main] INFO  testCases.TC_002_LoginTest - Login test passed...
+13:46:14.727 [main] INFO  testCases.TC_002_LoginTest - **** Finished TC_002_LoginTest  ****
+14:05:15.054 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\opencart\final.xml"
+14:05:19.186 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** starting TC_001_AccountRegistrationTest  *****
+14:05:19.186 [main] DEBUG testCases.TC_001_AccountRegistrationTest - application logs started......
+14:05:19.330 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount link
+14:05:20.083 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on registration link
+14:05:20.084 [main] INFO  testCases.TC_001_AccountRegistrationTest - Entering customer details.. 
+14:05:20.768 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on continue..
+14:05:22.001 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected message..
+14:05:22.004 [main] INFO  testCases.TC_001_AccountRegistrationTest - test passed...
+14:05:22.004 [main] DEBUG testCases.TC_001_AccountRegistrationTest - application logs end.......
+14:05:22.004 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** finished TC_001_AccountRegistrationTest  *****
+14:05:24.459 [main] INFO  testCases.TC_002_LoginTest - **** Starting TC_002_LoginTest  ****
+14:05:24.459 [main] DEBUG testCases.TC_002_LoginTest - capturing application debug logs....
+14:05:24.566 [main] INFO  testCases.TC_002_LoginTest - clicked on myaccount link on the home page..
+14:05:25.250 [main] INFO  testCases.TC_002_LoginTest - clicked on login link under myaccount..
+14:05:25.254 [main] INFO  testCases.TC_002_LoginTest - Entering valid email and password..
+14:05:25.641 [main] INFO  testCases.TC_002_LoginTest - clicked on login button..
+14:05:26.611 [main] INFO  testCases.TC_002_LoginTest - Login test passed...
+14:05:26.614 [main] INFO  testCases.TC_002_LoginTest - **** Finished TC_002_LoginTest  ****
