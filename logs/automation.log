@@ -26,3 +26,7 @@
 14:05:25.641 [main] INFO  testCases.TC_002_LoginTest - clicked on login button..
 14:05:26.611 [main] INFO  testCases.TC_002_LoginTest - Login test passed...
 14:05:26.614 [main] INFO  testCases.TC_002_LoginTest - **** Finished TC_002_LoginTest  ****
+10:23:20.482 [main] INFO  testCases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTets 
+10:23:22.468 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTets 
+10:54:28.803 [main] INFO  testCases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTets 
+10:54:30.830 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTets 
