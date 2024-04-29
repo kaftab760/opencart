@@ -14,6 +14,15 @@ public class SearchPage extends BasePage {
 
 	@FindBy(xpath = "//*[@id='product-list']//child::div//img")
 	List<WebElement> searchProducts;
+	
+	@FindBy(name="quantity")
+	WebElement txtquantity;
+	
+	@FindBy(xpath="//button[@id='button-cart']")
+	WebElement btnaddToCart;
+	
+	@FindBy(xpath="//div[contains(text(),'Success: You have added')]")
+	WebElement cnfMsg;
 
 	public boolean isProductExist(String productName) {
 		boolean flag = false;
@@ -26,6 +35,41 @@ public class SearchPage extends BasePage {
 		}
 
 		return flag;
+	}
+	
+	public void selectProduct(String productName)
+	{
+		for(WebElement product:searchProducts)
+		{				
+			if(product.getAttribute("title").equals(productName))
+			{
+				product.click();
+			}
+		}
+	
+	}
+	
+	public void setQuantity(String qty)
+	{
+		txtquantity.clear();
+		txtquantity.sendKeys(qty);
+	}
+	
+	public void addToCart()
+	{
+		btnaddToCart.click();
+	}
+	
+	public boolean checkConfMsg()
+	{
+		try
+		{
+		return cnfMsg.isDisplayed();
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
 	}
 
 }

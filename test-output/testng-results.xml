@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-26T10:54:23 EDT" name="Suite" finished-at="2024-04-26T10:54:31 EDT" duration-ms="7166">
+  <suite started-at="2024-04-29T14:21:31 EDT" name="Suite" finished-at="2024-04-29T14:21:40 EDT" duration-ms="9768">
     <groups>
       <group name="master">
-        <method signature="TC_004_SearchProductTest.verify_productSearch()[pri:0, instance:testCases.TC_004_SearchProductTest@2a798d51]" name="verify_productSearch" class="testCases.TC_004_SearchProductTest"/>
+        <method signature="TC_005_AddToCartPageTest.verify_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@2a798d51]" name="verify_addToCart" class="testCases.TC_005_AddToCartPageTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-04-26T10:54:23 EDT" name="Chrome Test" finished-at="2024-04-26T10:54:31 EDT" duration-ms="7166">
-      <class name="testCases.TC_004_SearchProductTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_SearchProductTest@2a798d51]" started-at="2024-04-26T10:54:24 EDT" name="setup" finished-at="2024-04-26T10:54:28 EDT" duration-ms="4501" status="PASS">
+    <test started-at="2024-04-29T14:21:31 EDT" name="Chrome Test" finished-at="2024-04-29T14:21:40 EDT" duration-ms="9768">
+      <class name="testCases.TC_005_AddToCartPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartPageTest@2a798d51]" started-at="2024-04-29T14:21:31 EDT" name="setup" finished-at="2024-04-29T14:21:37 EDT" duration-ms="5947" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_productSearch()[pri:0, instance:testCases.TC_004_SearchProductTest@2a798d51]" started-at="2024-04-26T10:54:28 EDT" name="verify_productSearch" finished-at="2024-04-26T10:54:30 EDT" duration-ms="2044" status="PASS">
+        <test-method signature="verify_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@2a798d51]" started-at="2024-04-29T14:21:37 EDT" name="verify_addToCart" finished-at="2024-04-29T14:21:40 EDT" duration-ms="3280" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_productSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_SearchProductTest@2a798d51]" started-at="2024-04-26T10:54:30 EDT" name="tearDown" finished-at="2024-04-26T10:54:31 EDT" duration-ms="267" status="PASS">
+        </test-method> <!-- verify_addToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_AddToCartPageTest@2a798d51]" started-at="2024-04-29T14:21:40 EDT" name="tearDown" finished-at="2024-04-29T14:21:40 EDT" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_004_SearchProductTest -->
+      </class> <!-- testCases.TC_005_AddToCartPageTest -->
     </test> <!-- Chrome Test -->
   </suite> <!-- Suite -->
 </testng-results>
