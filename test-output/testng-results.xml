@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-29T14:21:31 EDT" name="Suite" finished-at="2024-04-29T14:21:40 EDT" duration-ms="9768">
+  <suite started-at="2024-05-08T16:09:06 EDT" name="Suite" finished-at="2024-05-08T16:09:27 EDT" duration-ms="21631">
     <groups>
       <group name="master">
-        <method signature="TC_005_AddToCartPageTest.verify_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@2a798d51]" name="verify_addToCart" class="testCases.TC_005_AddToCartPageTest"/>
+        <method signature="TC_006_EndToEndTest.endToendTest()[pri:0, instance:testCases.TC_006_EndToEndTest@2a798d51]" name="endToendTest" class="testCases.TC_006_EndToEndTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-04-29T14:21:31 EDT" name="Chrome Test" finished-at="2024-04-29T14:21:40 EDT" duration-ms="9768">
-      <class name="testCases.TC_005_AddToCartPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_AddToCartPageTest@2a798d51]" started-at="2024-04-29T14:21:31 EDT" name="setup" finished-at="2024-04-29T14:21:37 EDT" duration-ms="5947" status="PASS">
+    <test started-at="2024-05-08T16:09:06 EDT" name="Chrome Test" finished-at="2024-05-08T16:09:27 EDT" duration-ms="21631">
+      <class name="testCases.TC_006_EndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_EndToEndTest@2a798d51]" started-at="2024-05-08T16:09:06 EDT" name="setup" finished-at="2024-05-08T16:09:08 EDT" duration-ms="2055" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_addToCart()[pri:0, instance:testCases.TC_005_AddToCartPageTest@2a798d51]" started-at="2024-04-29T14:21:37 EDT" name="verify_addToCart" finished-at="2024-04-29T14:21:40 EDT" duration-ms="3280" status="PASS">
+        <test-method signature="endToendTest()[pri:0, instance:testCases.TC_006_EndToEndTest@2a798d51]" started-at="2024-05-08T16:09:08 EDT" name="endToendTest" finished-at="2024-05-08T16:09:27 EDT" duration-ms="19337" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_addToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_AddToCartPageTest@2a798d51]" started-at="2024-04-29T14:21:40 EDT" name="tearDown" finished-at="2024-04-29T14:21:40 EDT" duration-ms="189" status="PASS">
+        </test-method> <!-- endToendTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_006_EndToEndTest@2a798d51]" started-at="2024-05-08T16:09:27 EDT" name="tearDown" finished-at="2024-05-08T16:09:27 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_005_AddToCartPageTest -->
+      </class> <!-- testCases.TC_006_EndToEndTest -->
     </test> <!-- Chrome Test -->
   </suite> <!-- Suite -->
 </testng-results>

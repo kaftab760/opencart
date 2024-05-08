@@ -94,7 +94,7 @@ public class BaseClass {
 
 	@AfterClass(groups = { "sanity", "regression", "master" })
 	public void tearDown() {
-		driver.quit();
+	//	driver.quit();
 	}
 
 	public String randomString() {
